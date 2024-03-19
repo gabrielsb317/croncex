@@ -1,12 +1,12 @@
 .body {
 	margin: 0;
 	padding: 0;
-	background-image:  url('Croncex_files/bg.jpg');
+	background-image: url('Croncex_files/bg.jpg');
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	margin: 0 auto;
 }
-
 .body::before {
 	content: "";
 	position: fixed;
@@ -21,7 +21,6 @@
 	filter: blur(10px);
 	z-index: -1;
 }
-
 .TopBar {
 	opacity: 0.8;
 	background-color: #353535;
